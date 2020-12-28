@@ -474,7 +474,7 @@ button {
 }
 
 .icon-md {
-    font-size: 52px!important;
+    font-size: 40px!important;
 }
 
 .icon-lg {
@@ -1064,3 +1064,7 @@ a[data-lightbox]:focus img {
         padding: 20px 0 20px 0;
 }
 }
+.padI{
+    padding: 5px;
+}
+
