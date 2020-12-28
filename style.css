@@ -474,7 +474,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 52px!important;
 }
 
 .icon-lg {
@@ -1048,4 +1048,19 @@ a[data-lightbox]:focus img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
+}
+
+.rowFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.marginImg img{
+    margin: auto;
+}
+
+@media all and (max-width:425px){
+    .black-background {
+        padding: 20px 0 20px 0;
+}
 }
