@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -104,7 +104,7 @@ a:hover {
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc .icon-round,
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #364577;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -536,7 +536,7 @@ a[data-lightbox] {
     text-align: center;
 }
 
-a[data-lightbox]:hover::before {
+a[data-lightbox]:hover::before{
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #313131!important;
 }
 
 .container {
@@ -674,10 +674,6 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-p {
-    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -780,11 +776,11 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #313131!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #364577!important;
     color: #FFFFFF!important;
 }
 
@@ -810,19 +806,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1035,22 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.focus li a:focus{
+    background-color: #364577;
+    color: white !important;
+}
+.focus a:focus{
+    background-color: #364577;
+    color: white !important;
+}
+.d-bloc a:focus .icon-md{
+    color: #364577 !important;
+}
+
+a[data-lightbox]:focus img {
+    opacity: 0.6;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
 }
