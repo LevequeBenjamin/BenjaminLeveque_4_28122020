@@ -1068,3 +1068,7 @@ a[data-lightbox]:focus img {
     padding: 5px;
 }
 
+.hors-ecran {
+    position: absolute;
+    left: -99999rem;
+ }
